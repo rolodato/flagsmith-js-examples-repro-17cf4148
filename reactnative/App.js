@@ -8,10 +8,10 @@ export default function () {
   return (
     <FlagsmithProvider
       options={{
-        environmentID: 'QjgYur4LQTwe5HpvbvhpzK',
-        cacheFlags: true,
+        environmentID: 'TKrFgEwfTXhoMVmymnvShk',
+        // cacheFlags: true,
         enableLogs: true,
-        AsyncStorage: AsyncStorage,
+        // AsyncStorage: AsyncStorage,
         onError: error => {
           console.warn(error);
         },
