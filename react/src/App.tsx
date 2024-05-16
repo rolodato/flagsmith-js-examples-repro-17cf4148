@@ -5,7 +5,7 @@ function App() {
     const flags = useFlags(['is_user_a'], ['name']); // only causes re-render if specified flag values / traits change
     const flagsmith = useFlagsmith();
     const identify = (name: string) => async () => {
-        await flagsmith.identify(name, { name });
+        await flagsmith.identify(name, {});
     };
     return (
         <div className='App'>

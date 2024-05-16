@@ -7,8 +7,9 @@ import App from './App';
 
 ReactDOM.render(
   <FlagsmithProvider options={{
-      environmentID: "TKrFgEwfTXhoMVmymnvShk",
-      // cacheFlags:true
+      environmentID: "ZAAEJPMaLCaXqjvyQmGP6A",
+      cacheFlags:true,
+      cacheOptions: { skipAPI: true},
   }} flagsmith={flagsmith}>
     <App />
   </FlagsmithProvider>,
